@@ -3,8 +3,73 @@
 <head>
   <meta charset="UTF-8">
   <title>$Title$</title>
+  <style>
+    .container {
+      width: 100%;
+      height: 100%;
+
+      display: flex;
+      flex-direction: column;
+
+      align-items: center;
+      justify-content: center;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+
+      align-items: center;
+      justify-content: center;
+
+      gap: 12px;
+    }
+    .form-container {
+      display: flex;
+      flex-direction: column;
+
+      width: 100%;
+
+      align-items: flex-start;
+      justify-content: left;
+    }
+
+    input[type = submit] {
+      width: 100%;
+      height: 30px;
+      background-color: whitesmoke;
+    }
+    input[type = submit]:hover {
+      width: 100%;
+      height: 30px;
+      background-color: aquamarine;
+    }
+  </style>
 </head>
 <body>
-$END$
+<div class="container">
+<h1>Registration Form</h1>
+<form>
+  <div class="form-container">
+    <label for="name-input"> Enter your name:</label>
+    <input id="name-input" type="text" placeholder="Name"/>
+  </div>
+
+  <div class="form-container">
+    <label for="password-input"> Enter your password:</label>
+    <input id="password-input" type="password" placeholder="Password"/>
+  </div>
+
+  <div class="form-container">
+    <label for="user-type-input"> Enter your user type:</label>
+    <select id="user-type-input">
+      <option value="Admin">Admin</option>
+      <option value="Moderator">Moderator</option>
+      <option value="User">User</option>
+    </select>
+  </div>
+
+  <input type="submit" value="Submit form"/>
+</form>
+</div>
 </body>
 </html>
