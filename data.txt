@@ -1,0 +1,3 @@
+{"username":"user1234"}
+{"username":"123","password":"352312","usertype":"Admin"}
+{"username":"1236456234234","password":"2523532554466","usertype":"Moderator"}
