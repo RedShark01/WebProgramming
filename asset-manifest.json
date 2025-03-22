@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/WebProgramming/static/css/main.01d4fe21.css",
+    "main.js": "/WebProgramming/static/js/main.c7fb0b52.js",
+    "static/media/asteroid.png": "/WebProgramming/static/media/asteroid.67b0c58be67884fe363a.png",
+    "index.html": "/WebProgramming/index.html",
+    "main.01d4fe21.css.map": "/WebProgramming/static/css/main.01d4fe21.css.map",
+    "main.c7fb0b52.js.map": "/WebProgramming/static/js/main.c7fb0b52.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01d4fe21.css",
+    "static/js/main.c7fb0b52.js"
+  ]
+}
